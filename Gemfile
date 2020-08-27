@@ -9,6 +9,10 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'puma', '~> 3.11'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# Use will_paginate
+gem 'will_paginate','3.1.7'
+# Use bootstrap-will_paginate
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '~> 5.0'
