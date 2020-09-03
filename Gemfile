@@ -64,6 +64,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  # Brings back `assigns` and `assert_template` to your Rails tests
+  gem 'rails-controller-testing'
 end
 
 group :production do
